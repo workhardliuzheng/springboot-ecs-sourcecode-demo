@@ -8,4 +8,4 @@ echo 'export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk' >> ~/.bashrc
 echo 'export PATH=$JAVA_HOME/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
 
-sudo nohup java -jar demo1-0.0.1-SNAPSHOT.jar > /dev/null 2>&1 &
+sudo nohup java -jar demo-0.0.1-SNAPSHOT.jar > /dev/null 2>&1 &
